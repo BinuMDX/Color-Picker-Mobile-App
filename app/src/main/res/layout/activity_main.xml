@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:layout_marginStart="75dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="100dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/RedValue"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/red_value"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <EditText
+        android:id="@+id/editRedValue"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/boarder"
+        android:ems="10"
+        android:hint="@string/hint_red"
+        android:inputType="number"
+        android:lineHeight="10dp"
+        android:paddingHorizontal="100dp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/BlueValue"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/blue_value"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <EditText
+        android:id="@+id/editBlueValue"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/boarder"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/blue_0_255"
+        android:lineHeight="10dp"
+        android:paddingHorizontal="100dp"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/GreenValue"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/green_value"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <EditText
+        android:id="@+id/editGreenValue"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/boarder"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/green_0_255"
+        android:lineHeight="10dp"
+        android:paddingHorizontal="100dp"
+        android:autofillHints="" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/boarder"
+            android:gravity="center"
+            android:onClick="changeBackground"
+            android:text="@string/generate"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000" />
+    </RelativeLayout>
+
+</LinearLayout>
+
+

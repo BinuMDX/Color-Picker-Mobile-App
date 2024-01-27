@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ColorPicker</string>
+    <string name="red_value">RED VALUE</string>
+    <string name="hint_red">Red (0-255)</string>
+    <string name="blue_value">BlUE VALUE</string>
+    <string name="blue_0_255">Blue (0-255)</string>
+    <string name="green_value">GREEN VALUE</string>
+    <string name="green_0_255">Green (0-255)</string>
+    <string name="generate">Generate</string>
+</resources>
